@@ -13,7 +13,7 @@ using namespace std;
 
 void dfs(int way, int preway, int n, vector<int> &road, vector<int> &ans, vector<pair<int, int>> &edge)
 {
-    if(ans.size() != 0)
+    if (ans.size() != 0)
     {
         return;
     }
@@ -47,10 +47,10 @@ void dfs(int way, int preway, int n, vector<int> &road, vector<int> &ans, vector
 int main(int argc, char const *argv[])
 {
     int n;
+    cin >> n;
     vector<int> road;
     vector<int> ans;
     vector<pair<int, int>> edge(n);
-    cin >> n;
     for (int i = 0; i < n; i++)
     {
         cin >> edge[i].first >> edge[i].second;
