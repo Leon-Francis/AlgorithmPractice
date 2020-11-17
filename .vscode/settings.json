@@ -9,5 +9,7 @@
         "iostream": "cpp",
         "cmath": "cpp",
         "ratio": "cpp"
-    }, // 格式化时调整include的顺序（按字母排序）
+    },
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "newLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "newLine", // 格式化时调整include的顺序（按字母排序）
 }
